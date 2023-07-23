@@ -2,6 +2,7 @@
   "name": "hashlips_nft_minting_dapp",
   "version": "1.0.0",
   "description": "HashLips minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
+  "homepage": "https://imchristiandev.github.io/nft-new-app-dev",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -32,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
