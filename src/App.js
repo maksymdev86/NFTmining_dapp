@@ -294,11 +294,19 @@ function App() {
                     >
                       CONNECT
                     </StyledButton>
-                    <a href="https://opensea.io/collection/talesfromcryptospace">
+                    <a 
+                      href="https://opensea.io/collection/talesfromcryptospace"
+                      style={{
+                        borderTop: "16px"
+                      }}
+                    >
                       <StyledImg
                         alt={"example"}
                         src={"/config/images/get-started-b@2x.png"}
-                        style={{ transform: "scaleX(-1)" }}
+                        style={{ 
+                          borderRadius: "20px", 
+                          width: "140px" 
+                        }}
                       />
                     </a>
                     {blockchain.errorMsg !== "" ? (
@@ -390,9 +398,13 @@ function App() {
           <s.TextSubTitle
             style={{
               textAlign: "center",
-              color: "var(--primary-text)"
+              color: "var(--primary-text)",
+              fontSize: "40px",
+              lineHeight: "1.6"
             }}
-          ></s.TextSubTitle>
+          >
+            Prize of 1 ETH inside an NFT
+          </s.TextSubTitle>
           <s.TextDescription
             style={{
               textAlign: "center",
