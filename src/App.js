@@ -297,7 +297,7 @@ function App() {
                     <a 
                       href="https://opensea.io/collection/talesfromcryptospace"
                       style={{
-                        borderTop: "16px"
+                        marginTop: "16px"
                       }}
                     >
                       <StyledImg
