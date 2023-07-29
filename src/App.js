@@ -294,6 +294,13 @@ function App() {
                     >
                       CONNECT
                     </StyledButton>
+                    <a href="https://opensea.io/collection/talesfromcryptospace">
+                      <StyledImg
+                        alt={"example"}
+                        src={"/config/images/get-started-b@2x.png"}
+                        style={{ transform: "scaleX(-1)" }}
+                      />
+                    </a>
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -380,6 +387,12 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+          <s.TextSubTitle
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)"
+            }}
+          ></s.TextSubTitle>
           <s.TextDescription
             style={{
               textAlign: "center",
